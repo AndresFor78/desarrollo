@@ -1,4 +1,5 @@
 [
-  {"nombrePregunta" : "Pregunta 1", "alternativa1": "Alternativa 1", "alternativa2": "Alternativa 2", "alternativa3": "Alternativa 3", "alternativa4": "Alternativa 4",
+  {"nombrePregunta" : "Pregunta 1", 
+   "alternativas": [{"alternativa1": "Alternativa 1"}, {"alternativa2": "Alternativa 2"},{"alternativa3": "Alternativa 3"},{"alternativa4": "Alternativa 4"}],
    "explicacion": "Explicación 1", "numeroPregunta": 1, "numeroAlternativaCorrecta": 4}  
 ]
