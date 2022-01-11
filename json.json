@@ -8,5 +8,10 @@
     "nombrePregunta" : "Pregunta 2", 
     "alternativas": ["Alternativa 1", "Alternativa 2", "Alternativa 3", "Alternativa 4"],
     "explicacion": "Explicación 2", "numeroPregunta": 2, "numeroAlternativaCorrecta": 1
+  },
+  {
+    "nombrePregunta" : "Pregunta 3", 
+    "alternativas": ["Alternativa 1", "Alternativa 2", "Alternativa 3", "Alternativa 4"],
+    "explicacion": "Explicación 3", "numeroPregunta": 3, "numeroAlternativaCorrecta": 3
   }  
 ]
