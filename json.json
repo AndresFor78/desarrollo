@@ -3,5 +3,15 @@
     "nombrePregunta" : "Pregunta 1", 
     "alternativas": ["Alternativa 1", "Alternativa 2", "Alternativa 3", "Alternativa 4"],
     "explicacion": "Explicación 1", "numeroPregunta": 1, "numeroAlternativaCorrecta": 4
+  },
+  {
+    "nombrePregunta" : "Pregunta 2", 
+    "alternativas": ["Alternativa 1", "Alternativa 2", "Alternativa 3", "Alternativa 4"],
+    "explicacion": "Explicación 2", "numeroPregunta": 2, "numeroAlternativaCorrecta": 1
+  }
+  {
+    "nombrePregunta" : "Pregunta 3", 
+    "alternativas": ["Alternativa 1", "Alternativa 2", "Alternativa 3", "Alternativa 4"],
+    "explicacion": "Explicación 3", "numeroPregunta": 1, "numeroAlternativaCorrecta": 2
   }
 ]
