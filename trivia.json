@@ -1,0 +1,18 @@
+[
+ {
+  "idPregunta": 1,
+  "nombrePregunta": "Pregunta 1",
+  "alternativas": ["Alternativa 1", "Alternativa 2","Alternativa 3","Alternativa 4"],
+  "explicacionRespuesta": "Justificación de la respuesta primera",
+  "numeroAlternativaCorrecta": 2
+ },
+ {
+  "idPregunta": 2,
+  "nombrePregunta": "Pregunta 2",
+  "alternativas": ["Alternativa 1", "Alternativa 2","Alternativa 3","Alternativa 4"],
+  "explicacionRespuesta": "Justificación de la respuesta segunda",
+  "numeroAlternativaCorrecta": 4
+ }
+]
+ 
+   
