@@ -12,21 +12,8 @@
   "alternativas": ["Alternativa 1", "Alternativa 2","Alternativa 3","Alternativa 4"],
   "explicacionRespuesta": "Justificación de la respuesta segunda",
   "numeroAlternativaCorrecta": 4
- },
- {
-  "idPregunta": 3,
-  "nombrePregunta": "Pregunta 3",
-  "alternativas": ["Alternativa 1", "Alternativa 2","Alternativa 3","Alternativa 4"],
-  "explicacionRespuesta": "Justificación de la respuesta tercera",
-  "numeroAlternativaCorrecta": 1
- },
- {
-  "idPregunta": 4,
-  "nombrePregunta": "Pregunta 3",
-  "alternativas": ["Alternativa 1", "Alternativa 2","Alternativa 3","Alternativa 4"],
-  "explicacionRespuesta": "Justificación de la respuesta cuarta",
-  "numeroAlternativaCorrecta": 2
  }
 ]
  
    
+
