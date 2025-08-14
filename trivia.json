@@ -216,25 +216,25 @@
     "numeroAlternativaCorrecta": 2
   },
   {
-    "idPregunta": 19,
-    "nombrePregunta": "¿Qué isla es famosa por sus palafitos y su iglesia patrimonial en madera?",
-    "alternativas": ["Quellón", "Castro", "Chacao", "Achao"],
-    "explicacionRespuesta": [
-      {
-        "tipo": "texto",
-        "contenido": "Castro, en la Isla Grande de Chiloé, es reconocida por sus coloridos palafitos sobre el agua y por sus iglesias de madera, muchas de las cuales son Patrimonio de la Humanidad. Estos elementos reflejan la arquitectura y cultura tradicional chilota."
-      }
-    ],
-    "numeroAlternativaCorrecta": 2
+  "idPregunta": 19,
+  "nombrePregunta": "¿Qué ciudad es famosa por sus palafitos y su iglesia patrimonial en madera?",
+  "alternativas": ["Quellón", "Castro", "Chacao", "Achao"],
+  "explicacionRespuesta": [
+    {
+      "tipo": "texto",
+      "contenido": "Castro es una ciudad de la Isla Grande de Chiloé reconocida por sus coloridos palafitos construidos sobre pilotes y por la Iglesia de San Francisco de Castro, parte del conjunto de Iglesias de Chiloé declarado Patrimonio de la Humanidad por la UNESCO. Estos elementos reflejan la identidad arquitectónica y cultural chilota."
+    }
+  ],
+  "numeroAlternativaCorrecta": 2
   },
   {
     "idPregunta": 20,
-    "nombrePregunta": "¿Qué famoso puente une el continente con la Isla Grande de Chiloé?",
+    "nombrePregunta": "¿Qué proyecto de puente está planificado para unir el continente con la Isla Grande de Chiloé?",
     "alternativas": ["Puente Río Puelo", "Puente Chacao", "Puente Llolleo", "Puente Angostura"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
-        "contenido": "El Puente Chacao conecta el continente con la Isla Grande de Chiloé, facilitando el transporte y el comercio. Es un ícono de ingeniería que reemplazó los antiguos transbordadores y permite el acceso a los atractivos turísticos y culturales de Chiloé."
+        "contenido": "El Puente Chacao es el proyecto destinado a conectar el continente con la Isla Grande de Chiloé atravesando el canal de Chacao. Al 14 de agosto de 2025, el puente aún no está operativo; el cruce se realiza mediante transbordadores entre Pargua (continente) y Chacao (isla)."
       }
     ],
     "numeroAlternativaCorrecta": 2
