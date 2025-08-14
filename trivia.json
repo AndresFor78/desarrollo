@@ -1,19 +1,181 @@
 [
- {
-  "idPregunta": 1,
-  "nombrePregunta": "Pregunta 1",
-  "alternativas": ["Alternativa 1", "Alternativa 2","Alternativa 3","Alternativa 4"],
-  "explicacionRespuesta": "Justificación de la respuesta primera",
-  "numeroAlternativaCorrecta": 2
- },
- {
-  "idPregunta": 2,
-  "nombrePregunta": "Pregunta 2",
-  "alternativas": ["Alternativa 1", "Alternativa 2","Alternativa 3","Alternativa 4"],
-  "explicacionRespuesta": "Justificación de la respuesta segunda",
-  "numeroAlternativaCorrecta": 4
- }
+  {
+    "idPregunta": 1,
+    "nombrePregunta": "¿Qué volcán domina el paisaje de Pucón y Villarrica?",
+    "alternativas": ["Osorno", "Villarrica", "Llaima", "Lanín"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El volcán Villarrica es el más emblemático y visible desde Pucón y Villarrica."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 2,
+    "nombrePregunta": "¿Qué lago está junto a la ciudad de Villarrica?",
+    "alternativas": ["Lago Calafquén", "Lago Villarrica", "Lago Caburgua", "Lago Budi"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El Lago Villarrica se encuentra adyacente a la ciudad del mismo nombre."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 3,
+    "nombrePregunta": "¿Qué termas son famosas cerca de Coñaripe?",
+    "alternativas": ["Termas de Chillán", "Termas Geométricas", "Termas de Puyuhuapi", "Termas del Flaco"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "Las Termas Geométricas son un conjunto de pozones termales muy visitados cerca de Coñaripe."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 4,
+    "nombrePregunta": "¿En qué comuna se encuentra la playa de Lican Ray?",
+    "alternativas": ["Pucón", "Villarrica (comuna)", "Temuco", "Curarrehue"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "Lican Ray pertenece a la comuna de Villarrica."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 5,
+    "nombrePregunta": "¿Qué lago está cerca de la localidad de Caburgua?",
+    "alternativas": ["Lago Villarrica", "Lago Caburgua", "Lago Calafquén", "Lago Pellaifa"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El Lago Caburgua se encuentra junto a la localidad homónima, cercana a Pucón."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 6,
+    "nombrePregunta": "¿Qué atractivo turístico cerca de Pucón consiste en pozones naturales de agua turquesa?",
+    "alternativas": ["Ojos del Caburgua", "Termas Geométricas", "Saltos del Petrohué", "Lago Todos los Santos"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "Los Ojos del Caburgua son pozones naturales con aguas de color turquesa cerca de Pucón."}],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 7,
+    "nombrePregunta": "¿Qué comunidad indígena es originaria de la zona de Villarrica y Pucón?",
+    "alternativas": ["Mapuche", "Aymara", "Rapa Nui", "Diaguita"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "Los Mapuche son la comunidad indígena predominante en la zona de Villarrica y Pucón."}],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 8,
+    "nombrePregunta": "¿Qué paso fronterizo une Pucón con San Martín de los Andes, en Argentina?",
+    "alternativas": ["Paso Pino Hachado", "Paso Hua Hum", "Paso Mamuil Malal", "Paso Cardenal Samoré"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El Paso Mamuil Malal conecta Pucón con San Martín de los Andes en Argentina."}],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 9,
+    "nombrePregunta": "¿Qué lago se encuentra en Lican Ray y también toca Coñaripe?",
+    "alternativas": ["Lago Calafquén", "Lago Villarrica", "Lago Caburgua", "Lago Pellaifa"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El Lago Calafquén se encuentra entre Lican Ray y Coñaripe."}],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 10,
+    "nombrePregunta": "¿Qué río cruza la ciudad de Valdivia?",
+    "alternativas": ["Río Calle-Calle", "Río Petrohué", "Río San Pedro", "Río Bueno"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El Río Calle-Calle atraviesa la ciudad de Valdivia."}],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 11,
+    "nombrePregunta": "¿Qué fuerte español histórico se puede visitar cerca de Valdivia?",
+    "alternativas": ["Fuerte Bulnes", "Fuerte Niebla", "Fuerte Corral", "Fuerte Chacao"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El Fuerte Niebla es un fuerte histórico español ubicado cerca de Valdivia."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 12,
+    "nombrePregunta": "¿Qué mercado fluvial es famoso en Valdivia por su venta de mariscos y pescados frescos?",
+    "alternativas": ["Mercado Central de Santiago", "Mercado Fluvial de Valdivia", "Feria Artesanal de Pucón", "Feria de Ancud"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El Mercado Fluvial de Valdivia es reconocido por la venta de mariscos y pescados frescos."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 13,
+    "nombrePregunta": "¿En qué región se encuentra Cochamó?",
+    "alternativas": ["Región de Aysén", "Región de Los Lagos", "Región de La Araucanía", "Región de Magallanes"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "Cochamó está ubicada en la Región de Los Lagos."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 14,
+    "nombrePregunta": "¿Qué lago conecta Puerto Varas con Peulla mediante navegación turística?",
+    "alternativas": ["Lago Ranco", "Lago Todos los Santos", "Lago Calafquén", "Lago Villarrica"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El Lago Todos los Santos conecta Puerto Varas con Peulla."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 15,
+    "nombrePregunta": "¿En qué parque nacional se encuentran los Saltos del Petrohué?",
+    "alternativas": ["Parque Nacional Vicente Pérez Rosales", "Parque Nacional Conguillío", "Parque Nacional Queulat", "Parque Nacional Hornopirén"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "Los Saltos del Petrohué se encuentran dentro del Parque Nacional Vicente Pérez Rosales."}],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 16,
+    "nombrePregunta": "¿Qué ciudad es la capital de la Región de Los Lagos?",
+    "alternativas": ["Castro", "Puerto Montt", "Osorno", "Ancud"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "Puerto Montt es la capital de la Región de Los Lagos."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 17,
+    "nombrePregunta": "¿Qué volcán se puede ver desde Puerto Varas y desde los Saltos del Petrohué?",
+    "alternativas": ["Osorno", "Villarrica", "Calbuco", "Lanín"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El volcán Osorno es visible desde Puerto Varas y desde los Saltos del Petrohué."}],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 18,
+    "nombrePregunta": "¿Qué ciudad chilena es conocida como “La Perla del Sur”?",
+    "alternativas": ["Valdivia", "Puerto Varas", "Ancud", "Temuco"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "Puerto Varas es conocida como 'La Perla del Sur' por su ubicación y belleza lacustre."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 19,
+    "nombrePregunta": "¿Qué isla es famosa por sus palafitos y su iglesia patrimonial en madera?",
+    "alternativas": ["Quellón", "Castro", "Chacao", "Achao"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "Castro es famosa por sus palafitos y su arquitectura de iglesias en madera, patrimonio cultural."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 20,
+    "nombrePregunta": "¿Qué famoso puente une el continente con la Isla Grande de Chiloé?",
+    "alternativas": ["Puente Río Puelo", "Puente Chacao", "Puente Llolleo", "Puente Angostura"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El Puente Chacao conecta el continente con la Isla Grande de Chiloé."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 21,
+    "nombrePregunta": "¿En qué localidad se realiza el tradicional “Festival Costumbrista” que muestra la cultura chilota?",
+    "alternativas": ["Quellón", "Castro", "Ancud", "Chacao"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El Festival Costumbrista se realiza en Castro, mostrando la cultura chilota."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 22,
+    "nombrePregunta": "¿Qué volcán está cerca de Ensenada y es conocido por su forma cónica perfecta?",
+    "alternativas": ["Villarrica", "Osorno", "Calbuco", "Chaitén"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "El volcán Osorno tiene una forma cónica casi perfecta y está cerca de Ensenada."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 23,
+    "nombrePregunta": "¿Qué atractivo en Cochamó es famoso por sus columpios en los árboles sobre el río?",
+    "alternativas": ["Sendero El Bolsón", "Columpios de Cochamó", "Salto de La Leona", "Termas de Cochamó"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "Los columpios de Cochamó son muy visitados y permiten disfrutar del paisaje sobre el río."}],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 24,
+    "nombrePregunta": "¿Qué localidad de Los Ríos es famosa por sus playas lacustres y su vista al volcán Mocho-Choshuenco?",
+    "alternativas": ["Niebla", "Coñaripe", "Panguipulli", "Futrono"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "Panguipulli es conocida por sus playas lacustres y la vista al volcán Mocho-Choshuenco."}],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 25,
+    "nombrePregunta": "¿Qué ciudad de la Región de Los Lagos es famosa por su Teatro del Lago y su arquitectura alemana?",
+    "alternativas": ["Puerto Montt", "Frutillar", "Castro", "Puerto Varas"],
+    "explicacionRespuesta": [{"tipo": "texto", "contenido": "Frutillar es conocida por el Teatro del Lago y su arquitectura alemana, siendo un importante centro cultural."}],
+    "numeroAlternativaCorrecta": 2
+  }
 ]
  
    
+
 
