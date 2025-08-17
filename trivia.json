@@ -213,7 +213,7 @@
         "contenido": "Puerto Varas es conocida como 'La Perla del Sur' por su ubicación a orillas del Lago Llanquihue y la vista de volcanes cercanos. La ciudad destaca por su arquitectura de influencia alemana, gastronomía y actividades turísticas relacionadas con lagos y montañas."
       }
     ],
-    "numeroAlternativaCorrecta": 2
+    "numeroAlternativaCorrecta": 1
   },
   {
   "idPregunta": 19,
@@ -300,3 +300,4 @@
     "numeroAlternativaCorrecta": 2
   }
 ] 
+
