@@ -2,7 +2,7 @@
   {
     "idPregunta": 1,
     "nombrePregunta": "¿Quién es el nuevo bebé de Yani?",
-    "alternativas": ["Don Gato", "La Luna", "Vicente", "Oxi"],
+    "alternativas": ["Don Gato", "La Luna", "Vincent", "Oxi"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
@@ -300,5 +300,6 @@
     "numeroAlternativaCorrecta": 2
   }
 ] 
+
 
 
