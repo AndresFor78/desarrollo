@@ -1,15 +1,15 @@
 [
   {
     "idPregunta": 1,
-    "nombrePregunta": "¿Qué volcán domina el paisaje de Pucón y Villarrica?",
-    "alternativas": ["Osorno", "Villarrica", "Llaima", "Lanín"],
+    "nombrePregunta": "¿Quién es el nuevo bebé de Yani?",
+    "alternativas": ["Don Gato", "La Luna", "Vicente", "Oxi"],
     "explicacionRespuesta": [
       {
         "tipo": "texto",
         "contenido": "El volcán Villarrica, también conocido como Rucapillán en mapudungún, es uno de los volcanes más activos de Chile y se destaca por su impresionante altura y presencia visible desde Pucón y Villarrica. Su cima a menudo cubierta de nieve y su cráter activo lo convierten en un ícono turístico y geográfico de la región."
       }
     ],
-    "numeroAlternativaCorrecta": 2
+    "numeroAlternativaCorrecta": 3
   },
   {
     "idPregunta": 2,
@@ -300,4 +300,5 @@
     "numeroAlternativaCorrecta": 2
   }
 ] 
+
 
