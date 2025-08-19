@@ -1,0 +1,44 @@
+[ 
+  {
+    "idPregunta": 1,
+    "nombrePregunta": "¿Qué volcán domina el paisaje de Pucón y Villarrica?",
+    "alternativas": ["Osorno", "Villarrica", "Llaima", "Lanín"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El"
+      },
+      {
+        "tipo": "link",
+        "contenido": "volcán Villarrica",
+        "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Villarrica"
+      },
+      {
+        "tipo": "texto",
+        "contenido": ", también conocido como Rucapillán en mapudungún, es uno de los volcanes más activos de Chile y se destaca por su impresionante altura y presencia visible desde Pucón y Villarrica. Su cima a menudo cubierta de nieve y su cráter activo lo convierten en un ícono turístico y geográfico de la región."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 2,
+    "nombrePregunta": "¿Qué lago está junto a la ciudad de Villarrica?",
+    "alternativas": ["Lago Calafquén", "Lago Villarrica", "Lago Caburgua", "Lago Budi"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El"
+      },
+      {
+        "tipo": "link",
+        "contenido": "Lago Villarrica",
+        "url": "https://es.wikipedia.org/wiki/Lago_Villarrica"
+      },
+      {
+        "tipo": "texto",
+        "contenido": "se encuentra junto a la ciudad homónima y es un lago de origen glacial y volcánico. Es un centro importante de turismo, deportes acuáticos y actividades recreativas, además de ofrecer vistas panorámicas del volcán Villarrica."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  }
+]
