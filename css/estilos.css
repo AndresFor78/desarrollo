@@ -1,0 +1,412 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    /* Aunque no tenga contenido todavía, ocupa todo el espacio sobrante
+    y empuja el footer hacia abajo */
+    flex: 1;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+.titulo {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 1rem;
+    /* background-color: #bfd4f2; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.titulo img{
+    width: 60%;
+    object-fit: cover;
+}
+
+.titulo h3{
+    font-style: italic;
+    color: rgb(6, 6, 102);
+    font-weight: bolder;
+    margin-top: 1.5rem;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-color: #bfd4f2;
+}
+
+.hide{
+    display: none;
+}
+
+
+/* LI Contenedor */
+ul>li{
+    border-bottom: 2px solid blue;
+}
+
+/* Pregunta */
+ul>li>p{
+    padding: 0.7rem;
+    text-align: justify;
+}
+
+/* OL Contenedor de alternativas */
+li>ol{
+    background-color: #FFF;
+    margin: 0.7rem;
+}
+
+/* Alternativa */
+ol>li{
+    border-bottom: 2px solid #c2c9a3;
+    position: relative;
+    padding: 0.5rem 0.5rem 0.5rem 2.3rem;
+    cursor: pointer;
+}
+
+/* Cuadrado de alternativa */
+ol>li::before{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    content: '';
+    text-align: center;
+    color: #FFF;
+    background-color: #c2c9a3;
+    left: 0.5rem;
+}
+
+ol>li:hover:before {
+    background-color: rgb(126, 122, 122);
+    
+}
+
+/* Mensaje de respuesta correcta o incorrecta */
+ol>li::after {
+    content: '';
+    margin-left: 10px;
+    font-size: 0.8rem;
+    vertical-align: middle;
+}
+
+/* Alternativa correcta */
+ol>li.respuesta-correcta::before {
+    content: '\2713';   
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Alternativa correcta como justificación de la incorrecta */
+ol>li.respuesta-correcta-justificacion::before {
+    content: '';
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Alternativa correcta mensaje */
+ol>li.respuesta-correcta::after {
+    content: 'Respuesta correcta';
+    color: green;    
+}
+
+/* Alternativa incorrecta */
+ol>li.respuesta-incorrecta::before {
+    content: 'X';
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+/* Alternativa incorrecta mensaje */
+ol>li.respuesta-incorrecta::after {
+    content: 'Respuesta incorrecta';
+    color: red;
+}
+
+/* Justificación respuesta */
+ul>li>div{
+    background-color: #FFF;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* ancla justificación */
+ul>li>div>p>a{
+    text-decoration: none;
+}
+
+ul>li>div>p>a:hover {
+    text-decoration: underline;
+}
+
+/* Ocultamiento div justificación */
+ul>li>div{
+    display: none;
+}
+
+/* Visualización div justificación */
+ul>li>div.mostrar {
+    display: block;
+}
+
+/* --------- RESULTADOS ---------  */
+
+/* contenedor principal */
+.container>div{
+    background-color: #FFF;
+    margin-top: 10px;
+    border: 1px solid #c2c9a3;
+}
+
+/* Título */
+.container>div>h3{
+    background-color: blue;
+    color: #FFF;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+/* contenedores correctas e incorrectas */
+.contador-correctas, .contador-incorrectas{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+/* separación */
+.contador-correctas {
+    border-bottom: 1px solid #c2c9a3; ;
+}
+
+/* div contador correctas e incorrectas */
+.contador-correctas>div, .contador-incorrectas>div {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    color:#FFF;
+    font-size: 1.5rem;
+    /* font-weight: bolder; */
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+/* Resultados- p */
+.contador-correctas>p,.contador-incorrectas>p {
+    font-size: 1rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;    
+}
+
+.apagarLi li{
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+/* Modal */
+.modal-overlay .modal-box img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.modal-overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+   
+}
+
+.modal-overlay .modal-box{
+    background-color: #FFF;
+    padding: 1rem;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 30px 15px rgba(0, 0, 0, 0.5);
+    position: relative;   
+    transform: scale(0.7); 
+    transition: transform 0.3s ease;
+}
+
+.modal-overlay .modal-box .modal-contenido{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+   
+}
+
+.modal-overlay .modal-box .modal-contenido p {
+    text-align: justify;
+    font-size: 1.2rem;    
+}
+
+.modal-overlay .modal-box .modal-contenido p span {
+    color: blue;
+    font-weight: bolder;
+}
+
+.modal-overlay .modal-box .modal-contenido .btn-compartir, .btn-volver-jugar{
+    text-decoration: none;
+    padding: .5rem 1rem;
+    background-color: blue;
+    color: #FFF;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    transform: scale(.9);
+    transition: transform .5s ease;    
+}
+
+.modal-overlay .modal-box .modal-contenido .btn-compartir:hover {
+    transform: scale(1);
+}
+
+.modal-overlay .modal-box .modal-contenido .btn-compartir:active {
+    transform: scale(.8);
+}
+
+
+
+.modal-overlay.mostrarModal .modal-box{
+    transform: scale(1);
+}
+
+.modal-overlay .modal-box .btn-cerrarModal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.mostrarModal{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Error de trivia no disponible */
+.errorTrivia{
+    font-size: 1.5rem;
+}
+
+.errorTrivia i{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:red;
+}
+
+/* footer */
+footer p{
+    text-align: center;
+    padding: 2rem 0 0 0;
+    color: grey;
+}
+
+/* MEDIA QUERYS */
+
+/* Celular hasta 600px de ancho */
+@media screen and (max-width:600px){
+    html{
+        font-size: 0.8rem;
+    }
+    .container {
+        width: 90%;
+    }
+    ol>li::before {
+        width: 1rem;
+        height: 1rem;
+    }
+    /* div contador correctas e incorrectas */
+    .contador-correctas>div,
+    .contador-incorrectas>div {
+        width: 1.8rem;
+        height: 1.8rem;        
+    }
+    
+    /* Error de trivia no disponible */
+    .errorTrivia {
+        font-size: 1rem;
+    }
+
+    .errorTrivia i {
+        font-size: 2.5rem;
+        font-weight: bolder;
+        color: red;
+    }
+
+    footer p{
+        font-size: .5rem;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:601px) and (max-width:1024px){
+    html{
+        font-size: 0.8rem;
+    }
+    .container {
+        width: 90%;
+    }
+    ol>li::before {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* div contador correctas e incorrectas */
+    .contador-correctas>div,
+    .contador-incorrectas>div {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Computador */
+/* @media screen and (min-width:1025px){
+
+} */
