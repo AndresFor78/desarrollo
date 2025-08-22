@@ -1,0 +1,302 @@
+[
+  {
+    "idPregunta": 1,
+    "nombrePregunta": "¿Qué volcán domina el paisaje de Pucón y Villarrica?",
+    "alternativas": ["Osorno", "Villarrica", "Llaima", "Lanín"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El volcán Villarrica, también conocido como Rucapillán en mapudungún, es uno de los volcanes más activos de Chile y se destaca por su impresionante altura y presencia visible desde Pucón y Villarrica. Su cima a menudo cubierta de nieve y su cráter activo lo convierten en un ícono turístico y geográfico de la región."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 2,
+    "nombrePregunta": "¿Qué lago está junto a la ciudad de Villarrica?",
+    "alternativas": ["Lago Calafquén", "Lago Villarrica", "Lago Caburgua", "Lago Budi"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Lago Villarrica se encuentra junto a la ciudad homónima y es un lago de origen glacial y volcánico. Es un centro importante de turismo, deportes acuáticos y actividades recreativas, además de ofrecer vistas panorámicas del volcán Villarrica."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 3,
+    "nombrePregunta": "¿Qué termas son famosas cerca de Coñaripe?",
+    "alternativas": ["Termas de Chillán", "Termas Geométricas", "Termas de Puyuhuapi", "Termas del Flaco"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Las Termas Geométricas son un conjunto de pozones termales ubicados en el sector del río Cajón en la región de Los Ríos. Su diseño arquitectónico único, con pasarelas de madera y estructuras rojas, junto con aguas termales naturales a diferentes temperaturas, las convierten en uno de los atractivos más visitados de la zona."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 4,
+    "nombrePregunta": "¿En qué comuna se encuentra la playa de Lican Ray?",
+    "alternativas": ["Pucón", "Villarrica (comuna)", "Temuco", "Curarrehue"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Lican Ray es una localidad turística ubicada en la comuna de Villarrica, famosa por su playa de aguas cálidas del Lago Calafquén, rodeada de montañas y naturaleza, lo que la hace un destino popular para actividades acuáticas y veraniegas."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 5,
+    "nombrePregunta": "¿Qué lago está cerca de la localidad de Caburgua?",
+    "alternativas": ["Lago Villarrica", "Lago Caburgua", "Lago Calafquén", "Lago Pellaifa"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Lago Caburgua es un lago de origen volcánico y de aguas cristalinas, ubicado a pocos kilómetros de Pucón y la localidad de Caburgua. Sus playas y áreas naturales lo convierten en un lugar ideal para el turismo, la pesca y actividades al aire libre."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 6,
+    "nombrePregunta": "¿Qué atractivo turístico cerca de Pucón consiste en pozones naturales de agua turquesa?",
+    "alternativas": ["Ojos del Caburgua", "Termas Geométricas", "Saltos del Petrohué", "Lago Todos los Santos"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Los Ojos del Caburgua son formaciones naturales de pozones de agua de color turquesa, alimentados por manantiales subterráneos. Se encuentran rodeados de bosques nativos y senderos, siendo un destino ideal para la fotografía y el contacto con la naturaleza."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 7,
+    "nombrePregunta": "¿Qué comunidad indígena es originaria de la zona de Villarrica y Pucón?",
+    "alternativas": ["Mapuche", "Aymara", "Rapa Nui", "Diaguita"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Los Mapuche son la comunidad indígena predominante en la zona de Villarrica y Pucón. Su cultura se refleja en tradiciones, gastronomía, artesanía y festividades locales, siendo fundamentales en la historia y el desarrollo cultural de la región."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 8,
+    "nombrePregunta": "¿Qué paso fronterizo une Pucón con San Martín de los Andes, en Argentina?",
+    "alternativas": ["Paso Pino Hachado", "Paso Hua Hum", "Paso Mamuil Malal", "Paso Cardenal Samoré"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Paso Mamuil Malal es un paso fronterizo que conecta Pucón con San Martín de los Andes, atravesando la Cordillera de los Andes. Es una ruta escénica que permite el comercio y el turismo entre Chile y Argentina, destacando por sus paisajes montañosos."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 9,
+    "nombrePregunta": "¿Qué lago se encuentra en Lican Ray y también toca Coñaripe?",
+    "alternativas": ["Lago Calafquén", "Lago Villarrica", "Lago Caburgua", "Lago Pellaifa"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Lago Calafquén es un lago de origen glacial ubicado entre Lican Ray y Coñaripe. Es conocido por sus aguas tranquilas y aptas para la navegación, siendo un lugar ideal para actividades recreativas y de turismo lacustre."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 10,
+    "nombrePregunta": "¿Qué río cruza la ciudad de Valdivia?",
+    "alternativas": ["Río Calle-Calle", "Río Petrohué", "Río San Pedro", "Río Bueno"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Río Calle-Calle atraviesa la ciudad de Valdivia y forma parte de la red de ríos que permiten la navegación histórica de la zona. Es esencial para la economía local, la pesca y el turismo fluvial."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 11,
+    "nombrePregunta": "¿Qué fuerte español histórico se puede visitar cerca de Valdivia?",
+    "alternativas": ["Fuerte Bulnes", "Fuerte Niebla", "Fuerte Corral", "Fuerte Chacao"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Fuerte Niebla es una fortificación construida por los españoles en el siglo XVII para proteger la entrada al río Valdivia. Su arquitectura militar, con murallas y cañones, permite comprender la importancia estratégica de Valdivia durante la colonización y su rol en la defensa del territorio."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 12,
+    "nombrePregunta": "¿Qué mercado fluvial es famoso en Valdivia por su venta de mariscos y pescados frescos?",
+    "alternativas": ["Mercado Central de Santiago", "Mercado Fluvial de Valdivia", "Feria Artesanal de Pucón", "Feria de Ancud"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Mercado Fluvial de Valdivia se ubica junto al río Calle-Calle y es reconocido por su gran oferta de mariscos, pescados frescos y productos locales. Es un centro cultural y turístico donde se puede conocer la gastronomía típica de la zona y la vida cotidiana de los pescadores."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 13,
+    "nombrePregunta": "¿En qué región se encuentra Cochamó?",
+    "alternativas": ["Región de Aysén", "Región de Los Lagos", "Región de La Araucanía", "Región de Magallanes"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Cochamó está ubicada en la Región de Los Lagos y es famosa por su valle profundo rodeado de montañas, ríos cristalinos y bosques nativos. Es un destino ideal para el trekking, escalada y actividades de ecoturismo, a menudo comparado con el Valle del Yosemite en Estados Unidos por su belleza natural."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 14,
+    "nombrePregunta": "¿Qué lago conecta Puerto Varas con Peulla mediante navegación turística?",
+    "alternativas": ["Lago Ranco", "Lago Todos los Santos", "Lago Calafquén", "Lago Villarrica"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Lago Todos los Santos, ubicado en la Región de Los Lagos, es conocido por sus aguas verdes esmeralda y la vista de volcanes como Osorno y Puntiagudo. Se realiza navegación turística entre Puerto Varas y Peulla, permitiendo apreciar cascadas, bosques y la fauna nativa durante el recorrido."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 15,
+    "nombrePregunta": "¿En qué parque nacional se encuentran los Saltos del Petrohué?",
+    "alternativas": ["Parque Nacional Vicente Pérez Rosales", "Parque Nacional Conguillío", "Parque Nacional Queulat", "Parque Nacional Hornopirén"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Los Saltos del Petrohué se encuentran en el Parque Nacional Vicente Pérez Rosales, el parque más antiguo de Chile. Son cascadas formadas por el río Petrohué sobre lava volcánica, con vistas espectaculares del volcán Osorno y senderos de fácil acceso para turistas."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 16,
+    "nombrePregunta": "¿Qué ciudad es la capital de la Región de Los Lagos?",
+    "alternativas": ["Castro", "Puerto Montt", "Osorno", "Ancud"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Puerto Montt es la capital de la Región de Los Lagos y un importante puerto pesquero. Desde aquí se accede al sur de Chile, incluyendo Chiloé y los parques nacionales. La ciudad combina infraestructura moderna con su historia ligada a la colonización alemana."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 17,
+    "nombrePregunta": "¿Qué volcán se puede ver desde Puerto Varas y desde los Saltos del Petrohué?",
+    "alternativas": ["Osorno", "Villarrica", "Calbuco", "Lanín"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El volcán Osorno es conocido por su forma cónica perfecta y es visible desde Puerto Varas y los Saltos del Petrohué. Es uno de los principales símbolos de la Región de Los Lagos, y su cima cubierta de nieve lo hace ideal para el turismo, el esquí y la fotografía."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 18,
+    "nombrePregunta": "¿Qué ciudad chilena es conocida como “La Perla del Sur”?",
+    "alternativas": ["Valdivia", "Puerto Varas", "Ancud", "Temuco"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Puerto Varas es conocida como 'La Perla del Sur' por su ubicación a orillas del Lago Llanquihue y la vista de volcanes cercanos. La ciudad destaca por su arquitectura de influencia alemana, gastronomía y actividades turísticas relacionadas con lagos y montañas."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+  "idPregunta": 19,
+  "nombrePregunta": "¿Qué ciudad es famosa por sus palafitos y su iglesia patrimonial en madera?",
+  "alternativas": ["Quellón", "Castro", "Chacao", "Achao"],
+  "explicacionRespuesta": [
+    {
+      "tipo": "texto",
+      "contenido": "Castro es una ciudad de la Isla Grande de Chiloé reconocida por sus coloridos palafitos construidos sobre pilotes y por la Iglesia de San Francisco de Castro, parte del conjunto de Iglesias de Chiloé declarado Patrimonio de la Humanidad por la UNESCO. Estos elementos reflejan la identidad arquitectónica y cultural chilota."
+    }
+  ],
+  "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 20,
+    "nombrePregunta": "¿Qué proyecto de puente está planificado para unir el continente con la Isla Grande de Chiloé?",
+    "alternativas": ["Puente Río Puelo", "Puente Chacao", "Puente Llolleo", "Puente Angostura"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Puente Chacao es el proyecto destinado a conectar el continente con la Isla Grande de Chiloé atravesando el canal de Chacao. Al 14 de agosto de 2025, el puente aún no está operativo; el cruce se realiza mediante transbordadores entre Pargua (continente) y Chacao (isla)."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 21,
+    "nombrePregunta": "¿En qué localidad se realiza el tradicional “Festival Costumbrista” que muestra la cultura chilota?",
+    "alternativas": ["Quellón", "Castro", "Ancud", "Chacao"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Festival Costumbrista de Castro celebra las tradiciones chilotas, incluyendo danzas, gastronomía típica, artesanía y actividades culturales. Es un evento que permite conocer y experimentar la vida local y las costumbres de Chiloé."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 22,
+    "nombrePregunta": "¿Qué volcán está cerca de Ensenada y es conocido por su forma cónica perfecta?",
+    "alternativas": ["Villarrica", "Osorno", "Calbuco", "Chaitén"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El volcán Osorno, cercano a Ensenada, es famoso por su simetría perfecta y su nieve perpetua. Es un importante atractivo turístico de la Región de Los Lagos, ideal para actividades como trekking, esquí y fotografía panorámica."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 23,
+    "nombrePregunta": "¿Qué atractivo en Cochamó es famoso por sus columpios en los árboles sobre el río?",
+    "alternativas": ["Sendero El Bolsón", "Columpios de Cochamó", "Salto de La Leona", "Termas de Cochamó"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Los columpios de Cochamó son una atracción turística donde los visitantes pueden balancearse sobre ríos y bosques nativos. Este lugar permite conectar con la naturaleza y disfrutar de vistas únicas del valle y sus paisajes montañosos."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 24,
+    "nombrePregunta": "¿Qué localidad de Los Ríos es famosa por sus playas lacustres y su vista al volcán Mocho-Choshuenco?",
+    "alternativas": ["Niebla", "Coñaripe", "Panguipulli", "Futrono"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Panguipulli es conocida por sus playas lacustres, especialmente en el lago homónimo, y por su cercanía al volcán Mocho-Choshuenco. La localidad es un centro de turismo de naturaleza, deportes acuáticos y pesca, destacando su paisaje de lagos y montañas."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 25,
+    "nombrePregunta": "¿Qué ciudad de la Región de Los Lagos es famosa por su Teatro del Lago y su arquitectura alemana?",
+    "alternativas": ["Puerto Montt", "Frutillar", "Castro", "Puerto Varas"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Frutillar es conocida por el Teatro del Lago, un importante centro cultural que alberga conciertos y eventos internacionales, y por su arquitectura de influencia alemana, con casas antiguas y jardines. La ciudad es un referente turístico y cultural del sur de Chile."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  }
+] 

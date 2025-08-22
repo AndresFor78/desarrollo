@@ -1,0 +1,22 @@
+[
+ {
+  "idPregunta": 1,
+  "nombrePregunta": "Pregunta 1ddd",
+  "alternativas": ["Alternativa 1", "Alternativa 2","Alternativa 3","Alternativa 4"],
+  "explicacionRespuesta": [
+     {"tipo": "texto", "contenido": "Justificación de la"},
+     {"tipo": "link", "contenido": "respuesta", "url": "https://es.wikipedia.org/wiki/Wikipedia:Portada"},
+     {"tipo": "texto", "contenido": "primera."}
+   ],
+  "numeroAlternativaCorrecta": 2
+ },
+ {
+  "idPregunta": 2,
+  "nombrePregunta": "Pregunta 2",
+  "alternativas": ["Alternativa 1", "Alternativa 2","Alternativa 3","Alternativa 4"],
+  "explicacionRespuesta": [{"tipo": "texto", "contenido": "Justificación de la respuesta segubda"}],
+  "numeroAlternativaCorrecta": 4
+ }
+]
+ 
+   
