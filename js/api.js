@@ -11,6 +11,9 @@ window.onload = ()=> {
     titulo = document.querySelector('.titulo');
     contenedor = document.getElementById('contenedor');
     loader = document.getElementById('loader');
+
+    //En caso de si hubiera ocurrido un error de carga de json
+    loader.classList.remove('hide');   
     
     contenedor.classList.add('hide');
     
@@ -30,8 +33,7 @@ function precargarImagenes() {
     //o sea no se pueden capturar con Try catch. Usar promesas
 
     try {
-        console.log('a');
-        
+       
         const imagenes = {
         oro: "img/medallaOro.jpg",
         plata: "img/medallaPlata.jpg",
@@ -57,9 +59,9 @@ function precargarImagenes() {
 
 export function cargarJson(){
 
-    // fetch('https://AndresFor78.github.io/desarrollo/trivia.json', {cache: 'no-store'})
-    // fetch('https://AndresFor78.github.io/desarrollo/triviaSurCopy.json', {cache: 'no-store'})
-    fetch('triviaSurCopy.json')
+    fetch('https://AndresFor78.github.io/desarrollo/resources/triviaSurVacaciones.json', {cache: 'no-store'})
+    // fetch('https://AndresFor78.github.io/desarrollo/resources/triviaSurCopy.json', {cache: 'no-store'})
+    // fetch('./resources/triviaSurCopy.json')
     .then(response => {
         if (!response.ok) {
             throw new Error("Se ha producido un error al cargar el recurso");            
@@ -169,6 +171,10 @@ function crearTrivia(jsonPreguntas){
 }
 
     function mostrarError(e) {
+        if (contenedor.classList.contains('hide')) {
+            contenedor.classList.remove('hide');
+        }
+        loader.classList.add('hide');
         contenedor.classList.add('errorTrivia');
         contenedor.innerHTML = `Trivia momentaneamente no disponible! <i class="fa-regular fa-face-sad-cry"></i>`;
     }
@@ -303,8 +309,7 @@ function crearTrivia(jsonPreguntas){
         contenedor.innerHTML = '';
         contadorCorrectas = 0;
         contadorIncorrectas = 0;
-        totalPreguntas = 0;
-        console.log('cargar Trivia');  
+        totalPreguntas = 0;        
     }
 
     // Algoritmo Fisher-Yates

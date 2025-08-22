@@ -79,19 +79,20 @@ export class Modal {
     compartirResultados(){
         
         console.log(window.location.href);
-        console.log(this.mensajeDetalle.dataset.tipoMedalla);
+        
         let tipoMedalla = this.mensajeDetalle.dataset.tipoMedalla;
 
-        console.log(tipoMedalla);
-        
+        const iconos = {oro: '🥇', plata: '🥈', bronce: '🥉'};
+
+        let tipoIcono = iconos[tipoMedalla];      
 
         let mensaje = '';
         if (tipoMedalla === 'consuelo') {
-            mensaje = `Jugué Trivia y no gané ninguna medalla! Obtuve ${this.mensajeDetalle.dataset.correctas} correctas de ${this.mensajeDetalle.dataset.totPreguntas} preguntas.
-                      ¿Puedes superarme? !Juega y averígualo!`;
+            mensaje = `Hola! 🖐 Jugué Trivia y no gané ninguna medalla! 😥 Obtuve ${this.mensajeDetalle.dataset.correctas} correctas de ${this.mensajeDetalle.dataset.totPreguntas} preguntas 🎯.
+                      ¿Puedes superarme? 😛 !Juega y averígualo! 💪`;
         }else{
-            mensaje = `Jugué Trivia, gané una medalla de ${tipoMedalla} y obtuve ${this.mensajeDetalle.dataset.correctas} correctas de ${this.mensajeDetalle.dataset.totPreguntas} preguntas.
-                      ¿Puedes superarme? !Juega y averígualo!`;
+            mensaje = `Jugué Trivia, gané una medalla de ${tipoMedalla} ${tipoIcono} y obtuve ${this.mensajeDetalle.dataset.correctas} correctas de ${this.mensajeDetalle.dataset.totPreguntas} preguntas 🎯.
+                      ¿Puedes superarme? 😛 !Juega y averígualo! 💪`;
         }
         
         console.log(mensaje);
