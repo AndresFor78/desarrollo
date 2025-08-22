@@ -1,0 +1,302 @@
+[
+  {
+    "idPregunta": 1,
+    "nombrePregunta": "¿Qué cerro es un mirador emblemático de Puerto Varas?",
+    "alternativas": ["Monte Calvario", "Osorno", "Villarrica", "Cerro Philippi"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Cerro Philippi ofrece una vista panorámica de Puerto Varas y el Lago Llanquihue."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  },
+  {
+    "idPregunta": 2,
+    "nombrePregunta": "¿Qué lago baña la costanera de Puerto Varas?",
+    "alternativas": ["Todos los Santos", "Villarrica", "Llanquihue", "Ranco"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Puerto Varas se encuentra a orillas del Lago Llanquihue, uno de los más grandes de Chile."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 3,
+    "nombrePregunta": "¿Qué lugar cultural destaca en Frutillar?",
+    "alternativas": ["Teatro del Lago", "Plaza de Armas", "Museo Colonial Alemán", "Iglesia San Francisco"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Teatro del Lago es un ícono cultural en Frutillar, sede de conciertos y eventos internacionales."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 4,
+    "nombrePregunta": "¿Qué postre típico se disfruta en Frutillar?",
+    "alternativas": ["Torta de milhojas", "Kuchen", "Sopaipillas", "Torta tres leches"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El kuchen es la preparación típica de origen alemán que se disfruta en Frutillar."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 5,
+    "nombrePregunta": "¿Qué producto es tradicional en Puerto Octay?",
+    "alternativas": ["Vino", "Quesos", "Mariscos", "Chocolate"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Puerto Octay es famoso por la producción de quesos artesanales de gran calidad."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 6,
+    "nombrePregunta": "¿Dónde se encuentra la plaza más importante de Puerto Octay?",
+    "alternativas": ["Plaza de armas", "Plaza Italia", "Plaza Sotomayor", "Plaza La Serena"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "La Plaza de Armas es el centro principal de Puerto Octay."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 7,
+    "nombrePregunta": "¿Qué carne exótica se puede disfrutar en Ensenada?",
+    "alternativas": ["Ciervo", "Jabalí", "Pato", "Guanaco"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "En Ensenada es típico degustar almuerzos de jabalí, una carne muy apreciada en la zona."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 8,
+    "nombrePregunta": "¿Qué atractivo natural se encuentra en el Parque Vicente Pérez Rosales?",
+    "alternativas": ["Salto del Laja", "Saltos del Petrohué", "Cascada de las Ánimas", "Salto del Nilahue"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Los Saltos del Petrohué son una de las atracciones más visitadas del Parque Nacional Vicente Pérez Rosales."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 9,
+    "nombrePregunta": "¿Qué lago se navega en catamarán dentro del Parque Vicente Pérez Rosales?",
+    "alternativas": ["Lago Ranco", "Lago General Carrera", "Lago Todos los Santos", "Lago Villarrica"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Lago Todos los Santos es conocido por sus aguas color esmeralda y la navegación en catamarán."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 10,
+    "nombrePregunta": "¿Qué actividad es común en Peulla?",
+    "alternativas": ["Pesca", "Safari 4x4", "Esquí", "Sandboard"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "En Peulla se pueden realizar safaris 4x4, además de excursiones a la Laguna El Encanto."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 11,
+    "nombrePregunta": "¿Qué volcán es famoso por sus telesillas y nieve?",
+    "alternativas": ["Villarrica", "Osorno", "Llaima", "Antuco"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El volcán Osorno es muy visitado por sus telesillas y actividades en la nieve."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 12,
+    "nombrePregunta": "¿Dónde se encuentra la Isla Loreley?",
+    "alternativas": ["En el Lago Llanquihue", "En el Lago Villarrica", "En el Lago Todos los Santos", "En La Poza"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "La Isla Loreley se ubica en La Poza, un sector muy pintoresco."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  },
+  {
+    "idPregunta": 13,
+    "nombrePregunta": "¿Qué ciudad tiene el mirador con vista a la costanera y al Seno de Reloncaví?",
+    "alternativas": ["Puerto Montt", "Ancud", "Castro", "Puerto Varas"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Puerto Montt cuenta con miradores hacia el mar y la costanera."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 14,
+    "nombrePregunta": "¿Dónde se ubica Angelmó?",
+    "alternativas": ["Castro", "Puerto Montt", "Dalcahue", "Frutillar"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Angelmó es una caleta y mercado típico de Puerto Montt, famosa por su gastronomía."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 15,
+    "nombrePregunta": "¿Qué parque protege el bosque de alerces Lahuen Ñadi?",
+    "alternativas": ["Parque Torres del Paine", "Parque Lahuen Ñadi", "Parque Conguillío", "Parque Pumalín"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Parque Lahuen Ñadi resguarda un relicto de alerces milenarios."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 16,
+    "nombrePregunta": "¿Dónde está la rampa de transbordador a Chiloé?",
+    "alternativas": ["Ancud", "Castro", "Pargua", "Dalcahue"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "La rampa de transbordadores hacia Chiloé se encuentra en Pargua."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 17,
+    "nombrePregunta": "¿Qué fuerte español se puede visitar en Chiloé?",
+    "alternativas": ["Fuerte Ahui", "Fuerte San Antonio", "Fuerte Niebla", "Fuerte Ancud"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El Fuerte San Antonio en Ancud es uno de los más emblemáticos de Chiloé."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 18,
+    "nombrePregunta": "¿Qué plato tradicional se prepara en Dalcahue?",
+    "alternativas": ["Curanto", "Cazuela", "Pastel de choclo", "Paila marina"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El curanto es el plato más tradicional de Dalcahue, preparado en hoyo con piedras calientes."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 19,
+    "nombrePregunta": "¿Qué construcciones típicas se encuentran en Castro?",
+    "alternativas": ["Palafitos", "Casas patronales", "Cabañas", "Casas de adobe"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Los palafitos son casas construidas sobre pilotes en la ciudad de Castro."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 20,
+    "nombrePregunta": "¿Qué laguna destaca dentro del Parque Vicente Pérez Rosales?",
+    "alternativas": ["Laguna Azul", "Laguna Verde", "Laguna Blanca", "Laguna La Señoraza"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "La Laguna Verde se encuentra dentro del Parque Vicente Pérez Rosales y es un atractivo natural."
+      }
+    ],
+    "numeroAlternativaCorrecta": 2
+  },
+  {
+    "idPregunta": 21,
+    "nombrePregunta": "¿Qué pueblo es conocido como la entrada a la Patagonia Verde?",
+    "alternativas": ["Cochamó", "Pucón", "Puerto Natales", "Hornopirén"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Cochamó es conocido como la puerta de entrada a la Patagonia Verde."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 22,
+    "nombrePregunta": "¿Qué árbol es famoso en Cochamó por su columpio?",
+    "alternativas": ["Coihue", "Alerce", "Raulí", "Lenga"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "En Cochamó se encuentra un coihue centenario con un columpio muy conocido."
+      }
+    ],
+    "numeroAlternativaCorrecta": 1
+  },
+  {
+    "idPregunta": 23,
+    "nombrePregunta": "¿Qué ciudad chilota es la primera al cruzar el canal de Chacao?",
+    "alternativas": ["Castro", "Ancud", "Chacao", "Dalcahue"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Chacao es el primer poblado de Chiloé al cruzar el canal desde Pargua."
+      }
+    ],
+    "numeroAlternativaCorrecta": 3
+  },
+  {
+    "idPregunta": 24,
+    "nombrePregunta": "¿Qué embarcación se usa para cruzar el canal de Chacao?",
+    "alternativas": ["Catamarán", "Ferry", "Lancha", "Transbordador"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "El cruce del canal de Chacao se realiza en transbordador."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  },
+  {
+    "idPregunta": 25,
+    "nombrePregunta": "¿Qué ciudad es famosa por su mercado de artesanías en Chiloé?",
+    "alternativas": ["Puerto Montt", "Castro", "Ancud", "Dalcahue"],
+    "explicacionRespuesta": [
+      {
+        "tipo": "texto",
+        "contenido": "Dalcahue es reconocida por su mercado de artesanías y gastronomía típica."
+      }
+    ],
+    "numeroAlternativaCorrecta": 4
+  }
+]
