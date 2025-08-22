@@ -1,20 +1,24 @@
 [
   {
     "idPregunta": 1,
-    "nombrePregunta": "¿Quién es el nuevo bebé de Yani?",
-    "alternativas": ["Don Gato", "La Luna", "Vincent", "Oxi"],
+    "nombrePregunta": "¿Qué volcán domina el paisaje de Pucón y Villarrica?",
+    "alternativas": ["Osorno", "Villarrica", "Llaima", "Lanín"],
     "explicacionRespuesta": [
       {
+        "tipo": "texto",
+        "contenido": "El"
+      },
+      {
         "tipo": "link",
-        "contenido": "El Vincent",
-        "url": "https://imgur.com/a/xn1fDiE"
+        "contenido": "volcán Villarrica",
+        "url": "https://es.wikipedia.org/wiki/Volc%C3%A1n_Villarrica"
       },
       {
         "tipo": "texto",
-        "contenido": "es el nuevo bebé y es chorizo de Colina 2"
+        "contenido": ", también conocido como Rucapillán en mapudungún, es uno de los volcanes más activos de Chile y se destaca por su impresionante altura y presencia visible desde Pucón y Villarrica. Su cima a menudo cubierta de nieve y su cráter activo lo convierten en un ícono turístico y geográfico de la región."
       }
     ],
-    "numeroAlternativaCorrecta": 3
+    "numeroAlternativaCorrecta": 2
   },
   {
     "idPregunta": 2,
@@ -305,6 +309,7 @@
     "numeroAlternativaCorrecta": 2
   }
 ] 
+
 
 
 
