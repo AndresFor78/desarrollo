@@ -304,8 +304,8 @@ function crearTrivia(jsonPreguntas){
 
     function limpiarHTML() {
         // Limpia HTML
-        const parrafoTitulo = titulo.querySelector('p');
-        if (parrafoTitulo != null) {parrafoTitulo.innerHTML = ''};
+        const h3Titulo = titulo.querySelector('h3');
+        if (h3Titulo != null) {h3Titulo.innerHTML = ''};
         contenedor.innerHTML = '';
         contadorCorrectas = 0;
         contadorIncorrectas = 0;
@@ -335,3 +335,4 @@ function crearTrivia(jsonPreguntas){
 
     
     
+
