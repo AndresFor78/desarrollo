@@ -9,6 +9,10 @@ html{
     font-size: 1rem;
 }
 
+body{
+    background: #f4f6fa;
+}
+
 html, body{
     height: 100%;
     display: flex;
@@ -410,3 +414,4 @@ footer p{
 /* @media screen and (min-width:1025px){
 
 } */
+
