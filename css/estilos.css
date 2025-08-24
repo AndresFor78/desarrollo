@@ -39,6 +39,7 @@ ul, ol{
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
+    color: #fff;
 }
 
 .titulo img{
@@ -414,6 +415,7 @@ footer p{
 /* @media screen and (min-width:1025px){
 
 } */
+
 
 
 
